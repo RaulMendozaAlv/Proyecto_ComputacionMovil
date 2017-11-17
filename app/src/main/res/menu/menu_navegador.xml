@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item_Todos"
+        android:orderInCategory="100"
+        android:title="Todos"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/item_BBVA"
+        android:orderInCategory="101"
+        android:title="BBVA" />
+    <item
+        android:id="@+id/item_Santander"
+        android:orderInCategory="102"
+        android:title="Santander" />
+    <item
+        android:id="@+id/item_Scotiabank"
+        android:orderInCategory="103"
+        android:title="Scotiabank" />
+    <item
+        android:id="@+id/item_BancoEstado"
+        android:orderInCategory="104"
+        android:title="Banco Estado" />
+    <item
+        android:id="@+id/item_BCI"
+        android:orderInCategory="105"
+        android:title="BCI" />
+    <item
+        android:id="@+id/item_HSBC"
+        android:orderInCategory="106"
+        android:title="HSBC" />
+</menu>
