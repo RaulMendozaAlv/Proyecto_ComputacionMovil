@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Mapa completo" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Funcion2" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/action_editar"
+                android:icon="@drawable/ic_action_editar"
+                android:title="Editar Perfil" />
+            <item
+                android:id="@+id/action_salir"
+                android:icon="@drawable/ic_action_exit"
+                android:title="Salir" />
+        </menu>
+    </item>
+
+</menu>
